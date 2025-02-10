@@ -5,6 +5,7 @@ const serverless = require('serverless-http');
 const app = Waline({
   env: 'netlify',
   async postSave(comment) {
+    console.log(comment);
     // do what ever you want after save comment
   },
 });
