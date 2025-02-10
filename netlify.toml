@@ -1,9 +1,2 @@
 [functions]
   directory = "netlify/functions/"
-
-
-[[redirects]]
-  from = "/api/comment"
-  to = "/.netlify/functions/comment/api/comment"
-  status = 200
-  force = true
