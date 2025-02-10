@@ -2,11 +2,8 @@
   directory = "netlify/functions/"
 
 
-[build]
-  functions = "netlify/functions"
-
 [[redirects]]
-  from = "/"
-  to = "/.netlify/functions/comment"
+  from = "/api/comment"
+  to = "/.netlify/functions/comment/api/comment"
   status = 200
   force = true
